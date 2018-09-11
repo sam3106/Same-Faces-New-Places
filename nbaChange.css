@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+} 
+.cf:before, .cf:after {
+content: " ";
+display: block;
+height: 0;
+min-height: 0 !important;
+visibility: hidden;
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+ .top3 img{
+   
+    width: 500px;
+    height: 500px;
+
+   
+}
+ .top3 {
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin: 0 5vh;
+}
+.top3:nth-child(2) {
+background-color: blue;
+}
+.button{ 
+    text-align: center;
+}
